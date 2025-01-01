@@ -33,6 +33,6 @@ public class TokenAuthenticationUserDetailsService
                             .toList(), token);
         }
 
-        throw new UsernameNotFoundException("Principal must me of type Token");
+        throw new UsernameNotFoundException("Principal must be of type Token");
     }
 }
